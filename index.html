@@ -5,18 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Júlia |Meu Portfólio</title>
     <style>
-    /*
-    ====================================
-      1. ESTILOS GERAIS E RESET BÁSICO
-    ====================================
-    */
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        /* Fundo muito claro */
-        background-color: #f0f8ff; /* Azul muito claro (Azure) */
-        color: #1c314a; /* Azul marinho escuro para o texto */
+        background-color: #f0f8ff;
+        color: #1c314a; 
         line-height: 1.6;
     }
 
@@ -32,14 +26,8 @@
         overflow: hidden;
         padding: 20px 0;
     }
-
-    /*
-    ====================================
-      2. CABEÇALHO E NAVEGAÇÃO
-    ====================================
-    */
     header {
-        /* Cor principal: Azul vibrante */
+        
         background-color: #007bff; 
         color: white;
         padding: 30px 0;
@@ -62,15 +50,10 @@
     }
 
     nav a:hover {
-        color: #ade8f4; /* Azul claro ao passar o mouse */
+        color: #ade8f4; 
         border-bottom: 2px solid #ade8f4;
     }
 
-    /*
-    ====================================
-      3. SEÇÕES GERAIS
-    ====================================
-    */
     section {
         padding: 60px 40px;
         margin-bottom: 30px;
@@ -81,31 +64,25 @@
 
     h2 {
         text-align: center;
-        color: #007bff; /* Títulos em Azul vibrante */
+        color: #007bff; 
         font-size: 2.2em;
         margin-bottom: 40px;
         position: relative;
         padding-bottom: 10px;
     }
 
-    /* Linha de destaque azul claro sob os títulos */
     h2::after {
         content: '';
         display: block;
         width: 60px;
         height: 3px;
-        background: #48bfe3; /* Azul Turquesa de Destaque */
+        background: #48bfe3; 
         margin: 10px auto 0;
         border-radius: 2px;
     }
 
-    /*
-    ====================================
-      4. CARTÕES DE PROJETO (PROJECT CARD)
-    ====================================
-    */
     .project-card {
-        border: 1px solid #b3cde0; /* Borda em azul suave */
+        border: 1px solid #b3cde0; 
         padding: 25px;
         margin-top: 20px;
         border-radius: 8px;
@@ -129,31 +106,20 @@
         text-decoration: underline;
     }
 
-    /* Efeito de elevação ao passar o mouse */
     .project-card:hover {
         transform: translateY(-8px);
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
     }
 
-    /*
-    ====================================
-      5. RODAPÉ (FOOTER)
-    ====================================
-    */
     footer {
         text-align: center;
         padding: 25px 0;
-        background-color: #1c314a; /* Azul marinho escuro */
+        background-color: #1c314a; 
         color: #e6f7ff;
         margin-top: 30px;
         font-size: 0.9em;
     }
 
-    /*
-    ====================================
-      6. RESPONSIVIDADE (MEDIA QUERIES)
-    ====================================
-    */
     @media (max-width: 768px) {
         .container {
             width: 100%;
